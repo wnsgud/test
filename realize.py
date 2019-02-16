@@ -20,7 +20,7 @@ print(len(custom_dataset))
 D_in = 30000
 #(100 * 100 * 3)
 H = 1000
-D_out = 2
+D_out = 7
 
 model = NkModel(D_in, H, D_out)
 
